@@ -1,0 +1,81 @@
+========== SECRETSCAN REPORT ==========
+Total findings: 11
+Suppressed findings: 0
+
+FINDING COUNTS
+API Key: 1
+AWS Access Key: 1
+Generic Token: 1
+High Entropy: 2
+Password: 4
+Private Key: 2
+
+DETAILED FINDINGS
+
+Category: High Entropy
+File: allowlist.txt
+Line: 2
+Match: [REDACTED]
+Context: [REDACTED]
+
+Category: API Key
+File: app.py
+Line: 1
+Match: [REDACTED]
+Context: api_key = "[REDACTED]"
+
+Category: Generic Token
+File: app.py
+Line: 3
+Match: [REDACTED]
+Context: access_token = "[REDACTED]"
+
+Category: Password
+File: app.py
+Line: 5
+Match: [REDACTED]
+Context: password = "[REDACTED]"
+
+Category: AWS Access Key
+File: config.py
+Line: 1
+Match: [REDACTED]
+Context: aws_key = "[REDACTED]"
+
+Category: Private Key
+File: keys.txt
+Line: 1
+Match: [REDACTED]
+Context: [REDACTED]
+
+Category: Password
+File: report.txt
+Line: 31
+Match: [REDACTED]
+Context: Context: password = "[REDACTED]"
+
+Category: Password
+File: report.txt
+Line: 49
+Match: [REDACTED]
+Context: Context: database_password = "[REDACTED]"
+
+Category: Private Key
+File: text.txt
+Line: 3
+Match: [REDACTED]
+Context: [REDACTED]
+
+Category: Password
+File: database\settings.py
+Line: 1
+Match: [REDACTED]
+Context: database_password = "[REDACTED]"
+
+Category: High Entropy
+File: database\settings.py
+Line: 2
+Match: [REDACTED]
+Context: random_value = "[REDACTED]"
+
+========== END OF REPORT ==========

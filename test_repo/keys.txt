@@ -1,0 +1,3 @@
+-----BEGIN RSA PRIVATE KEY-----
+This is fake private key test data.
+-----END RSA PRIVATE KEY-----

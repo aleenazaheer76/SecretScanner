@@ -1,0 +1,2 @@
+# Known safe test values
+TEST_API_KEY_123456789
